@@ -4,6 +4,7 @@
         justify-content: space-between;
         column-gap: 10px;
         border-radius: 20px;
+        margin-top: 50px;
       }
       .Hdiv1{
         width:90px;
@@ -41,7 +42,7 @@
         width:40px;
       }
       .date{
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 20px;
         color: rgb(39, 39, 65);
         font-weight: bold;
@@ -78,4 +79,5 @@
         top: 14px;
 
       }
+
 
