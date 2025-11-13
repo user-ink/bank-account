@@ -202,14 +202,29 @@ flex-direction: column;
   mix-blend-mode:multiply
 }
 .absolute{
-  background-color:rgb(236, 232, 232);
+  background-color:rgb(248, 243, 243);
   position: absolute;
   bottom: -30px;
   left: 0;
   right: 0;
+  margin-right: 60px;
   height: 80px;
   border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.bankpage-content-div{
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 20px;
+  background-color:rgb(236, 232, 232);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  }
+.bankpage-marchant-div{
+  display: flex;
+  width: 350px;
+  margin-bottom: 50px;
+  }
+
