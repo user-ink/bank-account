@@ -1,0 +1,90 @@
+body{
+  font-family: Arial;
+  background-color: white;
+}
+.header{
+  background-color: rgb(199, 6, 6);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.headerp{
+  margin-left: 18px;
+  color:white;
+  font-weight: bold;
+}
+.blue-div{
+  background-color: rgba(4, 2, 134, 0.897);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+.blue-divp{
+  margin: 0;
+  margin-top: 50px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.each-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trending-div{
+  background-color: rgb(241, 238, 238);
+  width: 400px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+   border-radius: 10px;
+}
+.head-topic{
+  font-size: 20px;
+}
+.content{
+  color:blue;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.next-div{
+  background-color: rgb(241, 238, 238);
+  width: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 10px;
+   border-radius: 10px;
+}
+.empty-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.letter{
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.letter-text{
+  margin:0;
+  margin-bottom: 7px;
+}
+
+.spann{
+  font-weight: bold;
+}

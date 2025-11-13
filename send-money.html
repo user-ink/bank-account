@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Money</title>
+    <link rel="stylesheet" href="style/send-money.css">
+    
+<!-- Emailjs Browser Script --> 
+<script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "Th6UUOs4cpAzilw_t",
+  });
+})();
+</script>
+
+  </head>
+
+  <body>
+   
+    <div class="header-div"> <p class="header">Send Money To Other Bank Card</p>
+    </div>
+    <div class="transfer-div">
+      <div class="E-header">
+        <p>Enter Receiver Details</p>
+      </div>
+
+      <div class="first-div">
+        <div class="first1">Destination Country</div>
+        <div class="second1">
+          <input class="first-input" placeholder="Enter Country">
+        </div>
+      </div>
+
+      <div class="first-div">
+        <div class="first1">Bank Name</div>
+        <div class="second1">
+          <input class="first-input" placeholder="Enter Bank">
+        </div> 
+      </div>
+
+      <div class="first-div">
+        <div class="first1">Bank Account Number</div>
+        <div class="second1">
+          <input class="first-input" placeholder="Enter Account Number">
+        </div>
+    </div>
+
+    <div class="first-div">
+        <div class="first1">Card Number</div>
+        <div class="second1">
+          <input placeholder="Enter ATM Card Number" class="first1-input js-atm-input" >
+        </div> 
+      </div>
+
+      <div class="first-div">
+        <div class="first1">Card Holder Name</div>
+        <div class="second1">
+          <input class="first-input js-holder-name" placeholder="Enter Card  Holder Name">
+        </div>
+        <div class="date-div"> Card Expiring Date
+        <input  type="month" class="due-date js-date"> Card cvv
+        <input placeholder="3-digits CVV" class="cvv js-cvv">
+      </div>
+      </div>
+    <div class="first-div">
+        <div class="first1">Enter Amount</div>
+        <div class="second2">
+          <div class="dollar-sing">$</div>
+          <input placeholder="Enter Amount" class="first-input2 js-amountinput ">
+
+          <button onclick="
+          confirm();
+          "class="confirm-button">Send</button>
+        </div>
+        
+          <div class="check js-check"></div>
+      </div>
+    </div>
+
+    <script src="script/inside-send-money.js"></script>
+  </body>
+   
+</html>
+

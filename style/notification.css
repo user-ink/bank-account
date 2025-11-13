@@ -1,0 +1,117 @@
+p{
+  font-family: Arial;
+}
+body{
+  background-color: rgb(235, 229, 229);
+}
+.notification-div{
+height: 60px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.notification-text{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buttons-div{
+  background-color: rgb(235, 231, 231);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-div button{
+  margin-right: 10px;
+}
+.first-button{
+  padding: 9px 15px;
+  background-color: rgb(216, 247, 216);
+  border-width: 1px;
+  border-color: rgb(133, 175, 133);
+  color: rgb(26, 167, 26);
+  border-radius: 20px;
+}
+.second-button{
+  padding: 9px 15px;
+  background-color: rgb(204, 201, 201);
+  border:0;
+  border-style: solid;
+  border-radius: 20px;
+}
+.third-button{
+  padding: 9px 15px;
+  background-color: rgb(204, 201, 201);
+  border:0;
+  border-style: solid;
+  border-radius: 20px;
+}
+.first-div{
+  background-color: rgb(243, 238, 238);
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.img-div{
+ 
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+.pnc-icon{
+  width: 70px;
+  mix-blend-mode: multiply;
+  margin-right: 8px;
+}
+.incoming-text{
+  font-weight: bold;
+  font-size:18px
+}
+.text-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.text{
+  margin-top: 0;
+}
+.daily-pay{
+  font-size: 20px;
+}
+/* card css inside notification*/
+.marchant-div{
+        display: flex;
+        width: 350px;
+        justify-content: center;
+        padding-left: 140px;
+      
+      }
+      .glob-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .glob-icon{
+        width: 40px; 
+        border-radius: 15px;
+      }
+      .marchant-text{
+        margin-left: 10px;
+      }
+      .span{
+        color: rgb(10, 161, 10);
+        font-weight: bold;;
+      }
+      .withdrawal{
+        color:rgb(138, 5, 5)
+      }
+      .cashback-icon{
+        width: 80px;
+        mix-blend-mode: multiply;
+      }

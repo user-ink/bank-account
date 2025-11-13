@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+}
+p{
+  color: white;
+  font-family: Arial;
+}
+.receive-usdt-div{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 216, 216);
+  border-radius: 100px;
+}
+.usdt-icon{
+  width: 200px;
+  mix-blend-mode: multiply;  
+}
+.receive-usdt-text{
+  color: black;
+  font-weight: bold;
+   font-size: 20px;
+}
+.bep20-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.usdt-bar-code{
+  width: 300px;
+}
+.usdt-bar-code-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address-div{
+  margin-left: 20px;
+  display: grid;
+  justify-items: center;
+}
+.address-text{
+  color:rgb(219, 213, 213);
+  font-size: 20px;
+}
+.text-div{
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  justify-content: center;
+}
+.content{
+  color: rgb(133, 34, 34);
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+.content-span{
+  font-weight: bold;
+  font-size: 24px;
+}
+.address-code{
+  margin: 0;
+  font-size: 30px;
+}

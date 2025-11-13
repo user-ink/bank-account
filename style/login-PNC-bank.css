@@ -1,0 +1,51 @@
+body{
+  background-color:rgb(195, 206, 206);
+  font-family: Arial;
+}
+.body-div{
+  /*background-color: rgb(75, 7, 7);*/
+  background-color: rgb(32, 32, 87);
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-div{
+  background-color: white;
+  height: 170px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  font-weight: bold;
+  color: white;
+}
+.card{
+  display: block;
+  margin-bottom:8px;
+  border-width: 1px;
+  height: 25px;
+  margin-left: -50px;
+}
+.password{
+  margin-bottom: 8px;
+}
+.login-js{
+   margin: 0;
+  margin-left: -80px;
+  color:rgb(8, 8, 240);
+}
+.not-found{
+  margin: 0;
+  margin-left: -80px;
+  color:rgb(212, 18, 18);
+}
+.pnc-img{
+  width: 80px;
+  border-radius: 60px;
+}

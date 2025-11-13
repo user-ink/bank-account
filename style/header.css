@@ -1,0 +1,73 @@
+  .header{
+        height: 100px;
+        display:flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        border-radius: 20px;
+      }
+      .Hdiv1{
+        width:90px;
+        display:flex;
+        justify-content:end;
+      }
+      .Hdiv1i{
+        width:70px;
+        border-radius:60px;
+        mix-blend-mode:multiply
+       
+        
+      }
+      .Hdiv2{
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        justify-content:end;
+      }
+      .Hdiv2G{
+        font-weight:bold;
+        font-size: 15x;
+        color: rgb(88, 83, 83);
+      }
+      .Hdiv2Ndiv{
+        display:flex;
+        flex-direction: row;
+        mix-blend-mode: multiply;
+      }
+      .Hdiv2N{
+        font-size: 35px;
+        padding-bottom: 10px;
+      }
+      .Hdiv2Ni{
+        width:40px;
+      }
+      .Hdiv3{
+        width:80px;
+        display:flex;
+        justify-content: end;
+      }
+      .Hdiv3i{
+        width: 40px;
+        border-radius: 30px;
+        padding-top: 3px;
+        mix-blend-mode: multiply;
+        margin-right: 60px;
+        margin-top: 15px;
+        position: relative;
+      }
+      .Hdiv3i:hover{
+        background-color: rgb(233, 228, 222);
+      }
+      .notify-sign{
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        border-radius: 30px;
+        position: absolute;
+        right: -7px;
+        top: 14px;
+
+      }

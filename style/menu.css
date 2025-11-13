@@ -1,0 +1,215 @@
+.first-board{
+  background-color: rgba(238, 229, 229, 0.726);
+height:300px;
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-top: 20px;
+ border-radius: 10px;
+}
+.Mdiv1{
+  display:flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.Mdiv1,button{
+  margin-left: 10px;
+  height: 37px;
+  border: none;
+  border-radius: 10px;
+}
+.B1{
+  padding: 10px 20px;
+  background-color: rgb(236, 154, 60);
+} 
+.B2{
+ padding: 10px 30px;
+ background-color: lightgray; 
+} .B2:hover{
+  background-color: rgb(236, 154, 60);
+  cursor: pointer;
+}
+.B3{
+  padding: 10px 20px;
+  background-color: lightgray;
+} .B3:hover{
+  background-color: rgb(236, 154, 60);
+  cursor: pointer;
+}
+.B4{
+  padding: 10px 30px;
+  background-color: lightgray;
+} .B4:hover{
+  background-color: rgb(236, 154, 60);
+  cursor: pointer;
+}
+
+.account{
+  height: 100px;
+  margin-top: 15px;
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.Adiv1, .Adiv2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.Adiv1{
+  padding-left: 60px;
+} .account-number{
+  color:rgb(85, 84, 84);
+  font-size: medium;
+}
+.Adiv2{
+  padding-right: 60px;
+}  .ledger{
+   color:rgb(85, 84, 84);
+  font-size: medium;
+}
+
+.balance{
+  display: flex;
+  justify-content: space-between;
+}
+.Bdiv1{
+  padding-left: 60px; 
+  align-items: top;
+}.Bdiv1p{
+  font-weight: bold;
+  color: rgb(105, 104, 104);
+} .Bdiv1bp{
+  font-weight: bold;
+  font-size: 30px;
+  align-content: end;
+  margin: 0;
+}
+
+.Bdiv2{
+  align-content: end;
+  padding-right: 60px;
+  font-size: 15px;
+}
+.Bdiv2p{
+  margin: 0;
+  font-weight: bold;
+} .Bdiv2p:hover{
+  color: rgb(214, 153, 22);
+  cursor: pointer;
+}
+.quick{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(66, 63, 63);
+  margin: 30px;
+  margin-bottom: 0;
+}
+/*.second-board{
+background-color: rgba(238, 229, 229, 0.726);
+ height:250px;
+ margin-left: 30px;
+ margin-right: 30px;
+ border-radius: 10px;
+ padding-bottom: 170px;
+}
+ */
+ .second-board{
+background-color: rgba(238, 229, 229, 0.726);
+display: flex;
+flex-direction: column;
+ height:250px;
+ margin-left: 30px;
+ margin-right: 30px;
+ border-radius: 10px;
+ padding-bottom: 30px;
+}
+
+/*.idiv1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20opx;
+}*/
+
+.idiv1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ margin-bottom: 20px;
+ padding-top: 10px;
+  
+}
+
+@media (max-width: 548px) {
+  .idiv1{
+  
+  }
+}
+/*.idiv1i{
+   display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20opx;
+}*/
+
+.Qicon{
+  width: 80px;
+  border-radius: 60px;
+} 
+.send{
+  margin: 0;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Qdiv{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+} .Qdiv:hover{
+  background-color: lightblue;
+}
+.fixed-div{
+  background-color: white;
+  position: relative;
+  bottom: 0;
+  left: 37px; 
+  right:37px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+}
+.fdiv1{
+  flex: 1;
+  flex-direction: column;
+} .fdiv1p{
+  font-weight: bold;
+  font-size: 20px;
+}
+.fdiv2{
+  flex: 1;
+} .fdiv2p{
+  font-size: 20px;
+  color: rgb(58, 57, 57);
+}
+.phonei{
+  mix-blend-mode:multiply
+}
+.absolute{
+  background-color:rgb(236, 232, 232);
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

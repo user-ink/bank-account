@@ -1,0 +1,107 @@
+.transfer-text{
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+ font-size: 19px;
+ margin-left: 10px;
+ margin-top: 40px; 
+}
+.pin-digits, .placeholdeer{
+  padding-left: 30px;
+  width: 100px;
+}
+.continue{
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+}
+.continue:hover{
+  cursor: pointer;
+  background-color: rgb(57, 175, 57);
+}
+.html-div{
+  background-color: aliceblue;
+}
+.header-div{
+  background-color: rgb(172, 23, 23);
+}
+.security-alert{
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 23px;
+}
+.answer-question{
+  color: white;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial;
+  margin: 0;
+}
+.question-div{
+  display: flex;
+  align-items: center;
+}
+.question1{
+  margin-left: 10px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.answer-button{
+  background-color: green;
+  color: white;
+   border-radius: 3px;
+}
+.answer-button:hover{
+  cursor: pointer;
+  background-color: rgb(57, 175, 57);
+}
+.answer-div{
+  margin-left: 103px;
+  margin-top: 15px;
+}
+.otp-div{
+  padding-left: 103px;
+  margin-top: 30px;
+}
+.otp-text{
+  font-family: Arial;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.otp-input{
+  height: 20px;
+}
+.otp-input, .placeholder{
+  padding-left: 5px;
+}
+.confirm-button{
+  background-color: rgb(26, 26, 189);
+  color: white;
+  border-radius: 3px;
+}
+.confirm-button:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+.incorrect-pin{
+  color: rgb(167, 14, 14);
+  margin: 0;
+  margin-top: 7px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.phone-input-span{
+  font-weight: bold;
+}
+.lastHTML-div{
+  margin-left: 110px;
+}
+.wrong-code{
+  color:red;
+  font-family: Arial;
+}

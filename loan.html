@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style/loan.css">
+  </head>
+  <body>
+    <div class="loan-div">
+       <div class="loan-text">Loan</div>
+    </div>
+    <div class="pnc-div">
+      <p> <span class="pnc-span">PNC BANK</span> Easy loan for your every day</p>
+      <div class="credit-div">
+        <p class="credit-limt">Credit Limit up to</p>
+        <p class="limit-amount">$100,000,000.00</p>
+        <div  class="rate-div">
+          <div class="rate-img-div">
+            <img src="icons/images H (5).jpeg" class="rate-img">
+            <p class="rate-text">Higher amount</p>
+          </div>
+          <div class="rate-img-div">
+            <img src="icons/download L (4).jpeg" class="rate-img">
+            <p class="rate-text">Lowewr rate</p>
+          </div>
+          <div class="rate-img-div">
+            <img src="icons/download M (8).png" class="rate-img">
+            <p class="rate-text">Multiple payments</p>
+          </div>
+        </div>
+        <div class="get-limit-div">
+          <button class="get-limit-button" onclick="get();">
+            Click To Get Limit
+          </button>
+        </div>
+        <div class="input-text"></div>
+      </div>
+    </div>
+
+    <script>
+      function get() {
+        const mathNumber = Math.random()
+        let text = '';
+        if (mathNumber >= 0) {
+          text = '<p>Vist any <span class="pnc-span">PNC BANK</span> branch to process this action.</p>'
+        }
+        console.log(text);        
+
+        document.querySelector('.input-text').innerHTML = text
+      }
+      
+    </script>
+
+  </body>
+</html>
