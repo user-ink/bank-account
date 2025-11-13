@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="style/dashboard.css">
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/body.css">
-    
+
+    <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js">
+      </script>
   </head>
   <body>
     <div class="header">
       <div class="Hdiv1">
-        <div class="Hdiv1i"><img class="Hdiv1i" src="icons/images (3).jpeg"></div>
+        <div class="Hdiv1i"><img class="Hdiv1i" src="icons/Image.jpeg"></div>
       </div>
       <div class="Hdiv2">
         <div class="Hdiv2G"> Welcome</div>
@@ -133,10 +135,17 @@
       </div>
       <!-- <script src="script/hide.js"></script>
       <script type="module" src="script/bank-balance.js"></script> -->
+       <script>
+        const todaydate = dayjs()
+        const today = todaydate.format('dddd, MMM D')
+
+        const date = document.querySelector('.js-date').innerHTML = today;
+      </script>
   </body>
 </html>
 
    
           
           
+
           
