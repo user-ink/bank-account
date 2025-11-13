@@ -40,6 +40,13 @@
       .Hdiv2Ni{
         width:40px;
       }
+      .date{
+        font-size: 18px;
+        margin-left: 20px;
+        color: rgb(39, 39, 65);
+        font-weight: bold;
+        min-width: 500px;
+      }
       .Hdiv3{
         width:80px;
         display:flex;
@@ -71,3 +78,4 @@
         top: 14px;
 
       }
+
