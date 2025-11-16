@@ -44,7 +44,9 @@
       } .second1{
         display: flex;
         flex: 1;
-        height: 30px;
+        height: 40px;
+        width: 400px;
+        margin-bottom: 80px;
       }
       .first-input{
         display: flex;
@@ -135,3 +137,4 @@
         margin-bottom: 10px;
 
       }
+
