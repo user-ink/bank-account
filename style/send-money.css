@@ -10,23 +10,28 @@
 .header{
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 50px;
       }
       .header-div{
-        justify-items: center;
-        align-content: center;
-        height: 50px
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin-top: 40px;
+        margin-bottom: 30px;
       }
       .transfer-div{
         background-color: white;
         padding-top: 15px;
         padding-bottom: 10px;
-        height:700px
       }
       .E-header{
-       justify-items: center;
-       font-size: 20px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
        font-weight: bold;
+       margin-bottom: 30px;
+       font-size: 40px;
       }
       .first-div{
         margin-left: 10px;
@@ -35,6 +40,7 @@
       } .first1{
         margin-bottom: 10px;
         font-weight: bold;
+        font-size: 30px;
       } .second1{
         display: flex;
         flex: 1;
@@ -127,4 +133,5 @@
       }
       .send-drop{
         margin-bottom: 10px;
+
       }
