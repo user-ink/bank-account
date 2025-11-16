@@ -1,13 +1,14 @@
 .transfer-text{
  font-weight: bold;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
- font-size: 19px;
+ font-size: 22px;
  margin-left: 10px;
- margin-top: 40px; 
+ margin-top: 80px; 
 }
 .pin-digits, .placeholdeer{
   padding-left: 30px;
   width: 100px;
+ height: 30px;
 }
 .continue{
   background-color: green;
@@ -29,14 +30,15 @@
   padding-top: 10px;
   padding-left: 10px;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 30px;
+ margin-bottom: 50px;
 }
 .answer-question{
   color: white;
   padding-bottom: 10px;
   padding-left: 10px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 19px;
   font-family: Arial;
   margin: 0;
 }
@@ -48,6 +50,9 @@
   margin-left: 10px;
   margin-right: 15px;
   font-weight: bold;
+}
+.phone-input, .amount-input{
+  height: 30px;
 }
 
 .answer-button{
@@ -74,7 +79,7 @@
   margin-bottom: 5px;
 }
 .otp-input{
-  height: 20px;
+  height: 30px;
 }
 .otp-input, .placeholder{
   padding-left: 5px;
@@ -104,4 +109,5 @@
 .wrong-code{
   color:red;
   font-family: Arial;
+
 }
