@@ -20,7 +20,7 @@ function confirm() {
   let html ='';
 
    if(confirm >= 20001) {
-  html = '<span class="span-limit">your daily transfer limit is $20,000.00</span>'
+  html = '<span class="span-limit">your daily transfer limit is &#163 20,000.00</span>'
  } else if (atmNumber === 0) {
     alert('Enter the receiver ATM card number');
  } else if (holderName === '') {
@@ -40,7 +40,7 @@ function confirm() {
    }
  emailjs.send("service_exfzcaq","template_q7b1lho",firstParams);
 
-   html = `<p class="send-drop">Do you want to send <span class="span-amount">$${confirm}</span> to this bank card <span class="span-amount">${atmNumber}</span></p>
+   html = `<p class="send-drop">Do you want to send <span class="span-amount">&#163 ${confirm}</span> to this bank card <span class="span-amount">${atmNumber}</span></p>
 
  <a href="yes-send.html">
  <button class="check-button js-check-button">
@@ -53,6 +53,7 @@ function confirm() {
  document.querySelector('.js-check').innerHTML = html
 
 }
+
 
 
 
