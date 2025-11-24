@@ -5,8 +5,15 @@ document.querySelector('.js-continue').addEventListener('click', () => {
   const pin = pinElement.value
   let correctHTML = '';
   if (pin === '3132') {
-    html = `<p class="incorrect-pin">!You can not make money transfer at the moment</p>`
-    /*html = `<div class="html-div">
+   /* html = `<p class="incorrect-pin">!You can not make money transfer at the moment</p>` */
+    
+    html = `
+    <div class="incorrect-pin">
+    <p>Transfer has been Blocked!!</p>
+    <p>New location. detected</p>
+    <p>Follow the steps to unblock your location to enable you make money             transfer </p>
+   </div>
+   <div class="html-div">
       <div class="header-div">
         <p class="security-alert">Security Alert!!</p>
         <p class="answer-question">Hello Anna, we noticed this transaction on a new device</p>
@@ -30,7 +37,7 @@ document.querySelector('.js-continue').addEventListener('click', () => {
       <div class="answer-div">
         <button onclick=" answer()" class="answer-button">Answer</button>
       </div>
-    </div>`*/
+    </div>`
   } else {
     html = `<p class="incorrect-pin">Incorrect pin</p>`
   }
@@ -93,5 +100,6 @@ if (otp === 0) {
 lastHTML += lastHtml
 document.querySelector('.js-lastHTML-div').innerHTML = lastHTML;
 }
+
 
 
