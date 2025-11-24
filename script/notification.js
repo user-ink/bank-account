@@ -4,7 +4,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
       <div class="text-div">
-        <p class="text"> <span class="daily-pay">DAILY PAY.</span> You received <span class="span">$2,000.00 </span>from Balfour Beatty</p>
+        <p class="text"> <span class="daily-pay">DAILY PAY.</span> You received <span class="span">&#163 2,000.00 </span>from Balfour Beatty</p>
       </div>
       </div>`;
 
@@ -14,7 +14,7 @@ const notification1 = `<div class="first-div">
         <p class="incoming-text">POS Transaction Successful</p>
       </div>
       <div class="text-div">
-        <p class="text"> <span class="daily-pay">CARD ..4557 PAYMENT</span> of <span class="withdrawal">$9,419.00</span> proessed at Walmart store</p>
+        <p class="text"> <span class="daily-pay">CARD ..4557 PAYMENT</span> of <span class="withdrawal">&#163 9,419.00</span> proessed at Walmart store</p>
       </div>
    </div>`;
 
@@ -24,7 +24,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">ATM Transaction Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">CARD ..4557 WITHDRAWAL</span> of <span class="withdrawal">$7,000.00</span> proessed at Metro ATM gallerry</p>
+      <p class="text"> <span class="daily-pay">CARD ..4557 WITHDRAWAL</span> of <span class="withdrawal">&#163 7,000.00</span> proessed at Metro ATM gallerry</p>
     </div>
    </div>`;
    const notification4 = `<div class="first-div">
@@ -33,7 +33,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">POS Transaction Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">CARD 4557 PAYMENT</span> of <span class="withdrawal">$14,000.00</span> proessed from T Victoria POS-2ITMVANG</p>
+      <p class="text"> <span class="daily-pay">CARD 4557 PAYMENT</span> of <span class="withdrawal">&#163 14,000.00</span> proessed from T Victoria POS-2ITMVANG</p>
     </div>
    </div>`;
    const notification5 = `<div class="first-div">
@@ -42,7 +42,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">DAILY PAYMENT.</span> You received <span class="span">$1,434.00</span> from Balfour Beatty Plc.</p>
+      <p class="text"> <span class="daily-pay">DAILY PAYMENT.</span> You received <span class="span">&#163 1,434.00</span> from Balfour Beatty Plc.</p>
     </div>
    </div>`;
    const notification6 = `<div class="first-div">
@@ -51,7 +51,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$60,000.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 60,000.00</span> from GSK plc</p>
     </div>
    </div>`;
    const notification7 = `<div class="first-div">
@@ -60,7 +60,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$37,860.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 37,860.00</span> from GSK plc</p>
     </div>
    </div>`;
    const notification8 = `<div class="first-div">
@@ -69,7 +69,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$82,400.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 82,400.00</span> from GSK plc</p>
     </div>
    </div>`;
    const notification9 = `<div class="first-div">
@@ -78,7 +78,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">ATM Transaction Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">$3,000.00</span> proessed at Metro ATM gallerry</p>
+      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">&#163 3,000.00</span> proessed at Metro ATM gallerry</p>
     </div>
    </div>`;
    const notification10 = `<div class="first-div">
@@ -87,7 +87,7 @@ const notification1 = `<div class="first-div">
       <p class="incoming-text">ATM Transaction Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">$5,000.00<span> proessed at PNC ATM gallerry</p>
+      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">&#163 5,000.00<span> proessed at PNC ATM gallerry</p>
     </div>
    </div> `;
 
@@ -124,7 +124,7 @@ const notify1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$82,400.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 82,400.00</span> from GSK plc</p>
     </div>
    </div>`;
    const notify2 = `<div class="first-div">
@@ -133,7 +133,7 @@ const notify1 = `<div class="first-div">
       <p class="incoming-text">ATM Transaction Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">$3,000.00</span> proessed at Metro ATM gallerry</p>
+      <p class="text"> <span class="daily-pay">CARD ...4557 WITHDRAWAL</span> of <span class="withdrawal">&#163 3,000.00</span> proessed at Metro ATM gallerry</p>
     </div>
    </div>`;
    const notify3 = `<div class="first-div">
@@ -142,7 +142,7 @@ const notify1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">DAILY PAYMENT.</span> You received <span class="span">$1,434.00</span> from Balfour Beatty Plc.</p>
+      <p class="text"> <span class="daily-pay">DAILY PAYMENT.</span> You received <span class="span">&#163 1,434.00</span> from Balfour Beatty Plc.</p>
     </div>
    </div>`;
    const notify4 = `<div class="first-div">
@@ -151,7 +151,7 @@ const notify1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$60,000.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 60,000.00</span> from GSK plc</p>
     </div>
    </div>`;
    const notify5 = `<div class="first-div">
@@ -160,7 +160,7 @@ const notify1 = `<div class="first-div">
       <p class="incoming-text">Incoming Transfer Successful</p>
     </div>
     <div class="text-div">
-      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">$37,860.00</span> from GSK plc</p>
+      <p class="text"> <span class="daily-pay">GSK PLC.</span> You received <span class="span">&#163 37,860.00</span> from GSK plc</p>
     </div>
    </div>`;
 
@@ -242,3 +242,4 @@ if (randomNumber3 >= 0 && randomNumber3 < 0.222) {
   message2 = notice4
 } 
 document.querySelector('.js-notification3').innerHTML = message3;
+
